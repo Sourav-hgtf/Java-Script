@@ -1,0 +1,19 @@
+// ...existing code...
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <h1>User List</h1>
+    <ul>
+      {{#each users}}
+      <li>
+        <strong>Name:</strong> {{this.name}}<br />
+        <strong>Age:</strong> {{this.age}}
+      </li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
